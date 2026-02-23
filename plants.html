@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Haven Nursery | Premium Plants & Bonsais</title>
+    <meta name="description"
+        content="Discover premium indoor and outdoor plants, and beautiful bonsais at Green Haven Nursery.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <i class="fa-solid fa-leaf"></i> Green Haven
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#shop">Plants</a></li>
+                <li><a href="#bonsai">Bonsais</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Breathe Life Into Your Space</h1>
+            <p>Discover our curated collection of premium indoor plants, outdoor vibrance, and exquisitely crafted
+                bonsais.</p>
+            <a href="#shop" class="btn btn-primary">Shop Now</a>
+        </div>
+    </header>
+
+    <main id="shop" class="shop-section">
+        <div class="section-header">
+            <h2>Our Collection</h2>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="indoor">Indoor</button>
+                <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+            </div>
+        </div>
+
+        <div class="products-grid" id="plants-grid">
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">indoor</span>
+                    <img src="monstera_deliciosa.jpg" alt="Monstera Deliciosa" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Monstera deliciosa</div>
+                    <h3 class="plant-name">Monstera Deliciosa</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹1,200</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">indoor</span>
+                    <img src="snake_plant.jpg" alt="Snake Plant" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Sansevieria trifasciata</div>
+                    <h3 class="plant-name">Snake Plant</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹850</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">indoor</span>
+                    <img src="peace_lily.jpg" alt="Peace Lily" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Spathiphyllum</div>
+                    <h3 class="plant-name">Peace Lily</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹950</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">indoor</span>
+                    <img src="fiddle_leaf_fig.jpg" alt="Fiddle Leaf Fig" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Ficus lyrata</div>
+                    <h3 class="plant-name">Fiddle Leaf Fig</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹1,800</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">outdoor</span>
+                    <img src="olive_tree.jpg" alt="Olive Tree" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Olea europaea</div>
+                    <h3 class="plant-name">Olive Tree</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹3,500</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">outdoor</span>
+                    <img src="bougainvillea.jpg" alt="Bougainvillea" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Bougainvillea glabra</div>
+                    <h3 class="plant-name">Bougainvillea</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹1,100</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">outdoor</span>
+                    <img src="japanese-maple.jpg" alt="Japanese Maple" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Acer palmatum</div>
+                    <h3 class="plant-name">Japanese Maple</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹2,900</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="bonsai" class="shop-section">
+        <div class="section-header">
+            <h2>Premium Bonsais</h2>
+            <p style="margin-top: 10px; color: var(--text-muted); font-size: 1.1rem;">Discover our meticulously crafted
+                miniature trees, perfect for adding an elegant touch of nature to your space.</p>
+        </div>
+
+        <div class="products-grid" id="bonsai-grid">
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">bonsai</span>
+                    <img src="ficus_bonsai.jpg" alt="Ficus Bonsai" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Ficus retusa</div>
+                    <h3 class="plant-name">Ficus Bonsai</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹2,500</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="plant-card">
+                <div class="plant-image-container">
+                    <span class="category-tag">bonsai</span>
+                    <img src="juniper_bonsai.jpg" alt="Juniper Bonsai" class="plant-image">
+                </div>
+                <div class="plant-details">
+                    <div class="plant-species">Juniperus procumbens</div>
+                    <h3 class="plant-name">Juniper Bonsai</h3>
+                    <div class="plant-footer">
+                        <span class="plant-price">₹4,200</span>
+                        <button class="buy-btn" aria-label="Add to cart">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3><i class="fa-solid fa-leaf"></i> Green Haven</h3>
+                <p>Cultivating nature's beauty for your home and garden.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Green Haven Nursery. All rights reserved.</p>
+        </div>
+    </footer>
+    <div id="toast" class="toast">Item added to cart!</div>
+</body>
+
+</html>

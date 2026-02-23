@@ -1,5 +1,9 @@
 # Green Haven Nursery 🌿
 
+<div align="center">
+  <img src="https://media.tenor.com/BP0zrL-SpzQAAAAi/flying-cute.gif" height="200" />
+</div>
+
 Green Haven Nursery is a responsive, beautifully designed front-end landing page for a premium plant and bonsai e-commerce store. 
 
 ## 🌟 Features
